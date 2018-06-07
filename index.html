@@ -1,0 +1,528 @@
+<!DOC TYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>SmartPrix</title>
+				<link href="style1.css" rel="stylesheet" type="text/css">
+				<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+				<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+				 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+				 <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+				<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+				<link href="infinite-slider.css" rel="stylesheet">
+					<script src="carousel.js"></script>
+			
+
+	</head>
+	
+	<body>
+		<div class="header">
+			<div class="headercenter1">
+				<div class="logo">
+					<img src="images/logo.png">
+				 </div>
+				 <div class="headerright">
+					<div class="search">
+						<div class="search-bar"><input type="text" name="name" placeholder="SEARCH"></div>
+						<div class="button"><a href="">Go</a></div>
+					</div>
+				</div>
+					<div class="icons">
+						<ul type="none">
+							<li><a href="">LOGIN</a></li>
+							<li><a href="">SIGN UP</a></li>
+							<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-google"></i></a></li>
+						</ul>
+					</div>
+			</div>
+		</div>
+		<div class="header1">
+			<div class="headercenter">
+					<div class="links1">
+						<ul type="none">
+							<li><a href="">Home</a></li>
+							<li><a href="">Mobiles</a></li>
+							<li><a href="#">Tablets</a></li>
+							<li><a href="#">Laptops</a></li>
+							<li><a href="#">Cameras</a></li>
+							<li><a href="#">Personal Care Appliances</a></li>
+							<li><a href="#">Accessories</a></li>
+							<li><a href="#">Books</a></li>
+							<li><a href="#">Deals</a></li>
+							<li><a href="#">News</a></li>
+						</ul>
+					</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		<div class="header2">
+	<script src="js/jssor.slider-27.1.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_SlideoTransitions = [
+              [{b:-1,d:1,o:-0.7}],
+              [{b:900,d:2000,x:-379,e:{x:7}}],
+              [{b:900,d:2000,x:-379,e:{x:7}}],
+              [{b:-1,d:1,o:-1,sX:2,sY:2},{b:0,d:900,x:-171,y:-341,o:1,sX:-2,sY:-2,e:{x:3,y:3,sX:3,sY:3}},{b:900,d:1600,x:-283,o:-1,e:{x:16}}]
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideDuration: 800,
+              $SlideEasing: $Jease$.$OutQuint,
+              $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlideo$,
+                $Transitions: jssor_1_SlideoTransitions
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 3000;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,regular,italic,700,700italic&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic" rel="stylesheet" type="text/css" />
+    <style>
+        /*jssor slider loading skin spin css*/
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /*jssor slider bullet skin 032 css*/
+        .jssorb032 {position:absolute;}
+        .jssorb032 .i {position:absolute;cursor:pointer;}
+        .jssorb032 .i .b {fill:#fff;fill-opacity:0.7;stroke:#000;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.25;}
+        .jssorb032 .i:hover .b {fill:#000;fill-opacity:.6;stroke:#fff;stroke-opacity:.35;}
+        .jssorb032 .iav .b {fill:#000;fill-opacity:1;stroke:#fff;stroke-opacity:.35;}
+        .jssorb032 .i.idn {opacity:.3;}
+
+        /*jssor slider arrow skin 051 css*/
+        .jssora051 {display:block;position:absolute;cursor:pointer;}
+        .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+        .jssora051:hover {opacity:.8;}
+        .jssora051.jssora051dn {opacity:.5;}
+        .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:280px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:280px;overflow:hidden;">
+            <div data-p="225.00">
+                <img data-u="image" src="images/b1.jpg" />
+                <div data-u="caption" data-t="0" style="position:absolute;top:120px;left:75px;width:470px;height:220px;">
+                    <!-- <img style="position:absolute;top:0px;left:0px;width:470px;height:220px;" src="img/4.png" /> -->
+                    <div style="position:absolute;top:4px;left:45px;width:379px;height:213px;overflow:hidden;">
+                        <!-- <img data-u="caption" data-t="1" style="position:absolute;top:0px;left:0px;width:379px;height:213px;" src="img/5.jpg" />  -->
+                         <!-- <img data-u="caption" data-t="2" style="position:absolute;top:0px;left:379px;width:379px;height:213px;" src="img/5.jpg" />  -->
+                    </div>
+                    <!-- <img style="position:absolute;top:4px;left:45px;width:379px;height:213px;" src="img/5.png" /> -->
+                    <!-- <img data-u="caption" data-t="3" style="position:absolute;top:476px;left:454px;width:63px;height:77px;" src="img/3.png" /> -->
+                </div>
+            </div>
+            <div data-p="225.00">
+                <img data-u="image" src="images/b3.jpg" /> 
+            </div>
+            <div data-p="225.00">
+                <img data-u="image" src="images/b2.jpg" style="height:280px" />
+                <div style="position:absolute;top:30px;left:30px;width:480px;height:130px;font-family:'Roboto Condensed',sans-serif;font-size:40px;color:#000000;line-height:1.5;padding:5px 5px 5px 5px;box-sizing:border-box;">
+<br />
+                  
+                </div>
+                <div style="position:absolute;top:300px;left:30px;width:480px;height:130px;font-family:'Roboto Condensed',sans-serif;font-size:30px;color:#000000;line-height:1.27;padding:5px 5px 5px 5px;box-sizing:border-box;"></div>
+            </div>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb032" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+            <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                </svg>
+            </div>
+        </div>
+        <!-- Arrow Navigator -->
+        <div data-u="arrowleft" class="jssora051" style="width:65px;height:65px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora051" style="width:65px;height:65px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+            </svg>
+        </div>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();</script>
+    <!-- #endregion Jssor Slider End -->
+	</div>
+	
+	
+	
+	<div class="header3">
+	<div class="headercenter1">
+			
+				<div class="banner">
+					<div class="b1"><a href=""><img src="images/11.jpg"></a></div>
+					<div class="b1"><a href=""><img src="images/12.jpg"></a></div>
+					<div class="b1"><a href=""><img src="images/13.jpg"></a></div>
+				</div>
+	</div>	
+	</div>
+	
+	
+		<div class="header4">
+		<img src="images/FATHERS-DAY.jpg">
+		<div class="headercenter1">
+			<section class="products slider">
+			<div class="slide">
+				<div class="s1img">
+					<img class="links" src="images/s1.jpg">
+					<div class="layer">
+						<a href="#.">ADD TO COMPARE</a>
+				    </div>
+				</div>
+				
+				<div class="s1text">
+						<h3>Product 1</h3>
+						<span>Just For Rs.13,000</span>	
+				</div>
+				
+			</div>
+			<div class="slide">
+				<div class="s1img">
+					<img class="links" src="images/s4.png">
+					<div class="layer">
+						<a href="#.">ADD TO COMPARE</a>
+				    </div>
+				</div>
+				<div class="s1text">
+						<h3>Product 2</h3>
+						<span>Just For Rs.15,000</span>	
+				</div>
+			</div>
+			<div class="slide">
+				<div class="s1img">
+					<img class="links" src="images/s3.jpg">
+					<div class="layer">
+						<a href="#.">ADD TO COMPARE</a>
+				    </div>
+				</div>
+				<div class="s1text">
+						<h3>Product 3</h3>
+						<span>Just For Rs.12,000</span>	
+				</div>
+			</div>
+			<div class="slide">
+				<div class="s1img">
+					<img class="links" src="images/s2.jpg">
+					<div class="layer">
+						<a href="#.">ADD TO COMPARE</a>
+				    </div>
+				</div>
+				<div class="s1text">
+						<h3>Product 4</h3>
+						<span>Just For Rs.13,000</span>	
+				</div>
+			</div>
+				<div class="slide">
+				<div class="s1img">
+					<img class="links" src="images/s5.jpg">
+					<div class="layer">
+						<a href="#.">ADD TO COMPARE</a>
+				    </div>
+				</div>
+				<div class="s1text">
+						<h3>Product 5</h3>
+						<span>Just For Rs.19,000</span>	
+				</div>
+			</div>
+			
+			
+		
+		</section>
+			</div>
+	    </div>
+		
+	
+			<div class="header5">
+			<div class="headercenter1">
+			   <div class="popular">
+					<h1>Popular Products</h1>
+				</div>
+				<div class="pp">
+					<div class="pp1">
+					<div class="layer"><a href="#">Speakers just for Rs.2500<br> <span>Click To Know More</span></a></div>
+					 <a href=""><img src="images/p1.jpg"></a>
+					</div>
+				</div>
+				<div class="pp">
+					<div class="pp1">
+					<div class="layer"><a href="#">Laptop just for Rs.21000<br> <span>Click To Know More</span></a></div>
+					  <a href=""><img src="images/p2.jpg"></a>
+					</div>
+				</div>
+				<div class="pp">
+					<div class="pp1">
+					<div class="layer"><a href="#">SuperWatch just for Rs.25000<br><span> Click To Know More</span></a></div>
+					 <a href=""><img src="images/p3.jpg"></a>
+					</div>
+				</div>
+				<div class="pp">
+					<div class="pp1">
+					<div class="layer"><a href="#">EarPhones just for Rs.5000<br> <span>Click To Know More</span></a></div>
+					 <a href=""><img src="images/p4.jpg"></a>
+					</div>
+				</div>
+					
+			
+			</div>
+			</div>
+			
+			
+			<div class="header5">
+			<div class="headercenter1">
+			   <div class="popular">
+					<h1>Upcoming Products</h1>
+				</div>
+				<div class="pp">
+					<div class="pp1">
+					<div class="layer"><a href="#">Laptop just for Rs.25000<br> <span>Click To Know More</span></a></div>
+					 <a href=""><img src="images/c11.jpg"></a>
+					</div>
+				</div>
+				<div class="pp">
+					<div class="pp1">
+					<div class="layer"><a href="#">HeadPhones just for Rs.15000<br> <span>Click To Know More</span></a></div>
+					 <a href=""><img src="images/c12.jpg"></a>
+					</div>
+				</div>
+				<div class="pp">
+					<div class="pp1">
+					<div class="layer"><a href="#">Gadget just for Rs.25000<br><span> Click To Know More</span></a></div>
+					 <a href=""><img src="images/c13.jpg"></a>
+					</div>
+				</div>
+				<div class="pp">
+					<div class="pp1">
+					<div class="layer"><a href="#">Gadget just for Rs.25000<br> <span>Click To Know More</span></a></div>
+					 <a href=""><img src="images/c14.jpg"></a>
+					</div>
+				</div>
+					
+			
+			</div>
+			</div>
+			
+			
+			<div class="header5">
+			<div class="headercenter1">
+				<div class="rc">
+				<h1>Recent Comparisons</h1>
+				<div class="rc1">
+					<ul type="none">
+					<li><a href="">
+					<img src="images/c1.png">
+					<span class="vs">vs</span>
+					<img src="images/c2.png">
+					<span class="l">Samsung Duo vs Xiaomi</span></a></li>
+					<li><a href="">
+					<img src="images/c2.png">
+					<span class="vs">vs</span>
+					<img src="images/c3.png">
+					<span class="l">Xiaomi Mi vs Nokia 3310<span></a></li>
+					<li><a href="">
+					<img src="images/c3.png">
+					<span class="vs">vs</span>
+					<img src="images/c4.png">
+					<span class="l">Nokia 3310 vs Lenovo Z5</span></a></li>
+					<li><a href="">
+					<img src="images/c4.png">
+					<span class="vs">vs</span>
+					<img src="images/c2.png">
+					<span class="l">Lenovo Z5 vs Redmi</span></a></li>
+					</ul>
+				</div>
+				</div>
+				<div class="rc">
+				<h1>Top Comparisons</h1>
+				<div class="rc1">
+					<ul type="none">
+					<li><a href="">
+					<img src="images/c1.png">
+					<span class="vs">vs</span>
+					<img src="images/c2.png">
+					<span class="l">Samsung Duo vs Xiaomi</span></a></li>
+					<li><a href="">
+					<img src="images/c4.png">
+					<span class="vs">vs</span>
+					<img src="images/c3.png">
+					<span class="l">Lenovo vs Nokia 3310</span></a></li>
+					<li><a href="">
+					<img src="images/c3.png">
+					<span class="vs">vs</span>
+					<img src="images/c1.png">
+					<span class="l">Nokia vs Samsung J7 </span></a></li>
+					<li><a href="">
+					<img src="images/c2.png">
+					<span class="vs">vs</span>
+					<img src="images/c4.png">
+					<span class="l">Xiaomi 5 Pro vs Lenovo</span></a></li>
+					</ul>
+				</div>
+				</div>
+				<div class="rc">
+				<h1>Top Searches</h1>
+				<div class="rc1">
+					<ul type="none">
+					<li><a href="">
+					<img src="images/c1.png">
+					<span class="l">Samsung Galaxy J7 Duo</span></a></li>
+					<li><a href="">
+					<img src="images/c4.png">
+					<span class="l"> Lenovo Z5</span></a></li>
+					<li><a href="">
+					<img src="images/c2.png">
+					<span class="l">Xiaomi Redmi Note 5</span></a></li>
+					<li><a href="">
+					<img src="images/c3.png">
+					<span class="l">Nokia 3310 (2017) </span></a></li>
+					</ul>
+				</div>
+				</div>
+				
+				<div class="rc">
+				<h1>Compare</h1>
+				<div class="rc1 fm">
+					<div class="compare">
+					    <div class="compare-bar"><input type="text" name="name" placeholder="ADD DEVICE"></div>
+						<div class="compare-bar"><input type="text" name="name" placeholder="ADD DEVICE"></div>
+						<div class="compare-bar"><input type="text" name="name" placeholder="ADD DEVICE"></div>
+						<div class="button1"><a href="">COMPARE</a></div>
+					</div>
+				</div>
+				</div>
+			</div>
+			</div>
+			
+			
+				<div class="footer">
+				<div class="headercenter1">
+		<div class="footer1">
+			<h5>DOWNLOAD THE APP</h5>
+			<a href="#"><img src="images/f1.png"></a>
+			<a href="#"><img src="images/f2.png"></a>
+			<h1>2000+ BRANDS</h1>
+			<h1>200000+ ITEMS</h1>
+		
+		</div>
+		<div class="footer2">
+		<h5>SMARTPRIX</h5>
+			<ul type="none">
+			<li><a href="#">Help/Support</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Careers</a></li>
+			<li><a href="#">Gift Cards</a></li>
+			<li><a href="#">FAQs</a></li>
+			<li><a href="#">Coupons</a></li>
+			<li><a href="#">Refer & Earn</a></li>
+			</ul>
+		
+		
+			</div>
+		<div class="footer3">
+			<h5>OUR POLICIES</h5>
+			<ul type="none">
+			<li><a href="#">Terms and Conditions</a></li>
+			<li><a href="#">Privacy Policy</a></li>
+			<li><a href="#">Vendor Code of Contact</a></li>
+			<li><a href="#">Deal of the Day</a></li>
+			</ul>
+			</div>
+		<div class="footer4">
+			<h5>SUBSCRIBE </h5>
+			<div class="cv">
+			<input type="text" name="name" placeholder="YOUR E-MAIL ADDRESS">
+			</div>
+			<button>SUBSCRIBE</button>
+			<ul type="none">
+				<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fa fa-google"></i></a></li>
+				<li><a href="#"><i class="fa fa-youtube-square"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+				</ul>
+				
+
+
+		
+		</div>
+		</div>
+	</div>
+	
+	<div class="footer-copyright blackcolor">
+			&copy; 2011-2018 &nbsp;- &nbsp;<a href="">smartprix.com</a> , All rights reserved &nbsp;| &nbsp;<a href="">Privacy Policy</a> &nbsp;| &nbsp;<a href="/">Terms of service</a>
+	</div>
+		
+		</body>
+		</html>
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		
+		
+		
